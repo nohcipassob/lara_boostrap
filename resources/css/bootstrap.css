@@ -1,0 +1,5 @@
+/* rtl:end:remove */
+.text-primary {
+    --bs-text-opacity: 1;
+    color: orange !important;
+}

@@ -1,0 +1,28 @@
+@use "../../node_modules/bootstrap/scss/bootstrap" as *;
+
+/* rtl:end:remove */
+.text-primary {
+    --bs-text-opacity: 1;
+    color: orange !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #fe6b2a;
+    --bs-btn-border-color: #fe6b2a;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #fe814a;
+    --bs-btn-hover-border-color: #fe7a3f;
+    --bs-btn-focus-shadow-rgb: 216, 91, 36;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #fe8955;
+    --bs-btn-active-border-color: #fe7a3f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #fe6b2a;
+    --bs-btn-disabled-border-color: #fe6b2a;
+}
+.vertical-decoration {
+    top: 12%;
+    width: 24px;
+}
